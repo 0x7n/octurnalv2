@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Luxurious+Roman&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #050505;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor:default;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.customGrid {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-size: 120px 120px;
+  /* background-color: #0E0B16; */
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.034) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+}
+
+.roman {
+  font-family: "Luxurious Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heroGradient {
+  background: #FFFFFF;
+  background: linear-gradient(to right, #FFFFFF 50%, #050505 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
