@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
 
 .heroGradient {
   background: #FFFFFF;
-  background: linear-gradient(to right, #FFFFFF 50%, #050505 100%);
+  background: linear-gradient(to right, #FFFFFF 50%, #050505 110%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

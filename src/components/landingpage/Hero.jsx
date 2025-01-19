@@ -11,7 +11,7 @@ const Hero = () => {
 
     return (
         <div className='h-screen w-full flex flex-col justify-center items-center align-middle'>
-            <h1 className='text-center text-5xl heroGradient opacity-75'>Create Beautiful Websites <br /> <span className='roman text-8xl'>With Me</span></h1>
+            <h1 className='text-center text-5xl heroGradient opacity-75 py-3'><span className='roman text-6xl'>Modern Websites</span> For<br />A Digital World</h1>
             <p className='text-[#6D6D6D] text-base py-7'>Custom made websites suited for you</p>
             {/* hover:shadow-[0px_0px_5px_5px_rgba(0,217,255,1)]  */}
             <a href="#" onClick={() => scrollToSection('contact')} className="rounded-full bg-[#171717] opacity-65 hover:opacity-90 hover:bg-[#00D9FF] py-3 px-8 border border-transparent font-medium text-center text-sm hover:text-[#050505] transition-all ease-in-out">Contact</a>
