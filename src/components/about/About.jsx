@@ -4,7 +4,7 @@ import Bento from './Bento'
 
 const About = () => {
   return (
-    <div className='bg-[#050505] h-screen w-full flex flex-col customGrid' id='about'>
+    <div className='bg-[#050505] h-auto w-full flex flex-col customGrid' id='about'>
         <Bento />
     </div>
   )
